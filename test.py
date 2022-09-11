@@ -1,14 +1,14 @@
 import os
 import pytest
 
-def prin_user_test():
+def test_print_user():
     print("User name is uday")
 
-def count_test():
+def test_count():
     for i in range(10):
         print("Number is "+str(i))
 
 if __name__ == "__main__":
-    prin_user_test()
-    count_test()
+    test_print_user()
+    test_count()
     print("Test Ended\n")
